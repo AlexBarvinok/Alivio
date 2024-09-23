@@ -1,2 +1,9 @@
 :root {
+  --color-white: #ffffff;
+  --color-green: #01996d;
+  --color-dark-green: #245852;
+
+  --color-font-black: #292929;
 }
+
+/* 992px, 768px, 576px, 480px */

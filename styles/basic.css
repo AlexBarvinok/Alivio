@@ -5,4 +5,56 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo-icon {
+  width: 80px;
+  height: 23px;
+  flex-shrink: 0;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  width: 183px;
+  height: 51px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color-white);
+  background-color: var(--color-green);
+}
+.btn:hover,
+.btn:focus-visible {
+  outline: 2px solid var(--color-dark-green);
+  cursor: pointer;
+}
+.btn--signin {
+  background-color: transparent;
+  color: var(--color-font-black);
+  border: none;
+
+  &:hover {
+    outline: none;
+    color: var(--color-green);
+  }
 }
