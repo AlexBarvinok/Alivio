@@ -1,0 +1,22 @@
+.card {
+  max-width: 399px;
+  height: 890px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--color-font-black);
+}
+
+.card__desc {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-light-black);
+}
+
+.card__img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
