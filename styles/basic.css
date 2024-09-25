@@ -22,8 +22,10 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p,
-figure {
+figure,
+blockquote {
   margin: 0;
 }
 
@@ -42,7 +44,6 @@ figure {
 .btn {
   border: none;
   outline: none;
-  border: 1px solid #01996d;
   border-radius: 4px;
   width: 183px;
   height: 51px;
